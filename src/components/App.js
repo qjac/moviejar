@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../img/logo.svg';
 import './App.css';
 
-import MegaButtonContainer from './MegaButton/'
+import MegaButtonContainer from './MegaButton/';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
         </header>
 
         <main>
-          
+          <MegaButtonContainer />
         </main>
 
        <footer>footer</footer>
