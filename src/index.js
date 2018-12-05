@@ -1,18 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './components/App.js';
+import App from './components/App.js';
 import * as serviceWorker from './serviceWorker';
-
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <h1>logo here</h1>
-            </div>
-        );
-    }
-}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
