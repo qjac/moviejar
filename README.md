@@ -1,13 +1,15 @@
-Movie Jar
+# Movie Jar
 You're thinking about watching a movie tonight. But here's comes a question that has stumped scholars for millenia. What movie should we watch? Oh...the horror, the tense silence, the frozen fear...
 
-Fear no more! Movie Jar will take your carefully curated list of movies and randomly select a gem for you to enjoy without the maddening indecisiveness that might otherwise throw your evening off kilter. Enjoy!
+**Fear no more!** Movie Jar will take your carefully curated list of movies and randomly select a gem for you to enjoy without the maddening indecisiveness that might otherwise throw your evening off kilter. Enjoy!
 
-Project Updates
-2018.04.09 Start work on MVP
+### Project Updates
+- 2018.04.09 Start work on MVP
+- 2018.12.05 Restart work on MVP using React
 
 
 ---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
