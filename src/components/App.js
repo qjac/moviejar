@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../img/logo.svg';
 import './App.css';
 
+import MegaButtonContainer from './MegaButton/'
+
 class App extends Component {
   render() {
     return (
@@ -9,6 +11,12 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
+
+        <main>
+          
+        </main>
+
+       <footer>footer</footer>
       </div>
     );
   }
