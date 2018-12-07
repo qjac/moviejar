@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetButton = props => {
 	return (
-      <button className="get-button">Get your movie!</button>
+      <button className="get-button" onClick={ props.handleClick }>Get your movie!</button>
     );
 }
 
