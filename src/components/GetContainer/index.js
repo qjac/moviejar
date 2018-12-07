@@ -7,9 +7,7 @@ import Result from './Result.js';
 class GetContainer extends React.Component {
 constructor(props) {
 	super(props);
-	const { list } = this.props;
 	this.handleClick = this.handleClick.bind(this);
-
 	this.state = {};
 }
 
@@ -27,7 +25,7 @@ handleClick(event) {
 	render(list) {
 		return (
 			<section className="get-container">
-				<Result list={ list } />
+				<Result list={ list } selectedMovie={this.state.selectedMovie} />
 				<GetButton 
 				list={ list } 
 				handleClick={ this.handleClick }/>

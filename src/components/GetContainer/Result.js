@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Result = props => {
+	const { selectedMovie } = props;
+
 	return (
-      <h2 className="result">Result</h2>
-    );
+		(selectedMovie) ? <h2 className="result">{ selectedMovie.title }</h2> : <h2 className="result"> </h2>
+	  );
 }
 
 export default Result;
