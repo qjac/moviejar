@@ -8,8 +8,8 @@ class GetContainer extends React.Component {
 	render() {
 		return (
 			<section className="get-container">
-				<GetButton />
 				<Result />
+				<GetButton />
 			</section>
 		)
 	}

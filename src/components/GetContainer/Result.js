@@ -2,7 +2,7 @@ import React from 'react';
 
 const Result = props => {
 	return (
-      <h2>Result</h2>
+      <h2 className="result">Result</h2>
     );
 }
 
