@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../img/logo.svg';
 import './App.css';
 
-import MegaButtonContainer from './MegaButton/';
+import GetContainer from './GetContainer/';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="app">
+        <header className="app-header">
+          <img src={logo} className="app-logo" alt="logo" />
         </header>
 
         <main>
-          <MegaButtonContainer />
+          <GetContainer />
         </main>
 
        <footer>footer</footer>
